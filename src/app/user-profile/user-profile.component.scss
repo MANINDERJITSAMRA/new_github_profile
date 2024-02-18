@@ -1,0 +1,82 @@
+
+/* This section styles a container element that holds the avatar, header, and content */
+.container {
+  display: flex; 
+}
+
+/* Styles for the avatar image */
+.avatar {
+  background-size: cover; 
+  background-position: center; 
+  width: 250px; 
+  height: 250px; 
+  border-radius: 50%; 
+}
+
+/* Styles for the header */
+.header {
+  display: flex; 
+  justify-content: center; 
+}
+
+/* Styles for the content */
+.content {
+  text-align: left;
+}
+
+/* Styles for the biography section */
+.bio {
+  white-space: pre-line; 
+  overflow-wrap: break-word;
+}
+
+/* Styles for the repository card */
+.repo-card {
+  margin-top: 50px; 
+  margin-bottom: 20px; 
+  border-bottom: 1px solid #ccc; 
+}
+
+/* Styles for each item within the repository details */
+.repo-details-item {
+  display: flex; 
+  align-items: center; 
+  margin-right: 10px; 
+}
+
+/* Additional styles for the repository card within the repo-container */
+.repo-container .repo-card {
+  box-shadow: 10px; 
+  margin-bottom: 10px; 
+  padding: 10px; 
+  border-radius: 5px; 
+  margin-left: 20px; 
+}
+
+/* Styles for the repository header */
+.repo-header h3 a {
+  color: #58a6ff; 
+}
+
+/* Styles for the repository header paragraph */
+.repo-header p {
+  color: #adbac7;
+}
+
+/* Styles for the repository details */
+.repo-details {
+  display: flex; 
+  align-items: center; 
+}
+
+/* Styles for each item within the repository details (icon and text) */
+.repo-details-item svg {
+  fill: #adbac7; 
+  flex-shrink: 0; 
+  margin-right: 5px; 
+}
+
+/* Styles for the text within the repository details */
+.repo-details-item span {
+  color: #adbac7; 
+}
